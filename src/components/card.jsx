@@ -18,7 +18,7 @@ const  Card=(props) => {
     <p className="card-text">{props.discription}</p>
     <p><strong>{props.tech}</strong></p>
 
-    <a href={props.web} className="btn btn-outline-primary">APP Link</a>
+    <a href={props.web} target="_blank" className="btn btn-outline-primary">APP Link</a>
 </div>
 </div>
 

@@ -13,15 +13,9 @@ const  About=() => {
     imgsrc={weblogo}
     visit="/contact"
     btnname="Contact Me"
-   
-   
+    
     />
-       
-
-
-
-   
-  </>
+ </>
   );
 }
 

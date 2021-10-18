@@ -55,7 +55,7 @@ const Navbar = () => {
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menu_active"
-                        className="nav-link"
+                        className="nav-link aboutme"
                         to="/about"
                       >
                         About
@@ -71,6 +71,17 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
+
+                    {/* <li>
+                    <NavLink
+                    <a href=""></a><i className="bi bi-github btn"></i>
+                     <NavLink>
+                    </li>
+                     <li>
+                      
+                      <i className="bi bi-linkedin"></i>
+
+                    </li> */}
                   </ul>
                 </div>
               </div>
