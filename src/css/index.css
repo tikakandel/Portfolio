@@ -199,14 +199,17 @@ footer p {
     margin-top: 10px;
   }
   #header h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
   #header h2 {
-    font-size: 14px;
+    font-size: 10px;
     margin-bottom: 0px;
   }
+  p{
+    font-size: 10px;
+  }
   #header .header-img img {
-    width: 70%;
+    width: 50%;
   }
 }
 
