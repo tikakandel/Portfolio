@@ -216,6 +216,9 @@ footer p {
   .heroImage {
     max-width: 30% !important;
   }
+  .heroImage {
+    max-width: 40% !important;
+  }
 }
 
 
