@@ -8,7 +8,7 @@ const Common = (props) => {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <div className=" main-div col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                   <h1>{props.name}</h1>
                   <p className="my-3 justify-content">{props.about}</p>
                   <div className="mt-3">
