@@ -177,7 +177,7 @@ footer p {
 
 /* responsive code */
 
-@media (max-width: 991px) {
+@media (max-width: 760px) {
   #header {
     height: 80vh;
     text-align: center;
