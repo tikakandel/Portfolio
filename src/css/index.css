@@ -177,9 +177,9 @@ footer p {
 
 /* responsive code */
 
-@media (max-width: 760px) {
+@media (max-width: 991px) {
   #header {
-    height: 80vh;
+    height: 90vh;
     text-align: center;
   }
 
@@ -194,9 +194,9 @@ footer p {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 760) {
   #header {
-    height: 60vh;
+    height: 90vh;
     text-align: center;
   }
 
@@ -210,9 +210,9 @@ footer p {
     font-size: 10px;
     margin-bottom: 0px;
   }
-  /* #header .header-img img {
+  #header .header-img img {
     width: 70%;
-  } */
+  }
   
   
 }
