@@ -177,9 +177,9 @@ footer p {
 
 /* responsive code */
 
-@media (max-width: 991px) {
+@media (max-width: 760px) {
   #header {
-    height: 90vh;
+    height: 80vh;
     text-align: center;
   }
 
@@ -194,9 +194,9 @@ footer p {
   }
 }
 
-@media (max-width: 760) {
+@media (max-width: 320px) {
   #header {
-    height: 90vh;
+   
     text-align: center;
   }
 
@@ -213,7 +213,9 @@ footer p {
   #header .header-img img {
     width: 70%;
   }
-  
+  .heroImage {
+    max-width: 30% !important;
+  }
   
 }
 
