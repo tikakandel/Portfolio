@@ -2,7 +2,7 @@ import React from "react"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 import { Switch, Route, Redirect  } from "react-router-dom"
-import Home from "./Home"
+import Resume from "./Resume"
 import About from "./About"
 import Contact from "./Contact"
 import Projects from "./Projects"
@@ -21,8 +21,8 @@ const  App=() => {
   <Navbar />
   <hr />
   <Switch>
-    <Route exact path="/" component= {Home} />
-    <Route exact path="/about" component= {About} />
+    <Route exact path="/" component= {About} />
+    <Route exact path="/resume" component= {Resume} />
     <Route exact path="/contact" component= {Contact} />
     <Route exact path="/projects" component= {Projects} />
     <Redirect to ="/" />

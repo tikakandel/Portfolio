@@ -56,9 +56,11 @@ const Navbar = () => {
                       <NavLink
                         activeClassName="menu_active"
                         className="nav-link aboutme"
-                        to="/about"
+                        to="/resume"
                       >
-                        About
+                      
+                       Resume
+                     
                       </NavLink>
                     </li>
 
@@ -71,17 +73,6 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
-
-                    {/* <li>
-                    <NavLink
-                    <a href=""></a><i className="bi bi-github btn"></i>
-                     <NavLink>
-                    </li>
-                     <li>
-                      
-                      <i className="bi bi-linkedin"></i>
-
-                    </li> */}
                   </ul>
                 </div>
               </div>

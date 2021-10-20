@@ -5,17 +5,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Muli", sans-serif;
-
 }
-.root{
+.root {
   min-height: 100%;
 }
 
-.container-fluid section
-{
- margin-top: 20px !important;
-max-height: 70%;
-
+.container-fluid section {
+  margin-top: 20px !important;
+  max-height: 70%;
 }
 .navbar {
   background-color: #fff !important;
@@ -57,7 +54,7 @@ max-height: 70%;
 
 #header {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   margin-top: 70px;
 }
 
@@ -97,14 +94,34 @@ max-height: 70%;
 
 .header-img {
   text-align: right;
- 
 }
-.heroImage{
-max-width: 70% !important;}
+.heroImage {
+  max-width: 70% !important;
+}
+
 #header .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.card-title{
+  background: rgb(1, 39, 12);
+  color: #fff;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -130,17 +147,28 @@ max-width: 70% !important;}
   width: 100%;
   height: 75vh;
 }
-
-.bi
-{
-
+.resume {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+.resume:hover {
+  background: #3498db;
+  color: #fff;
 }
 /* /// footer///////////////////// */
-.bi
-{
-width: 50px;
-height: 50px;
-size: 40px;
+.bi {
+  margin-right: 10px !important;
+}
+i {
+  justify-content: center;
 }
 footer p {
   padding: 0;
@@ -161,9 +189,12 @@ footer p {
   #header .header-img img {
     width: 70%;
   }
+  .heroImage {
+    max-width: 40% !important;
+  }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 450px) {
   #header {
     margin-top: 10px;
   }
@@ -179,22 +210,4 @@ footer p {
   }
 }
 
-@media (max-width: 360px)
-{
-  #header {
-    margin-top: 5px;
-  }
-  #header h1 {
-    font-size: 12px;
-  }
-  #header h2 {
-    font-size: 12px;
-    margin-bottom: 0px;
-  }
-  #header .header-img img {
-   height: 30%;
-  }
-  body{
-    max-height: 95vh !important;
-  }
-}
+
