@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Tika-React-Portfolio/static/css/main.4909b178.chunk.css",
+    "main.js": "/Tika-React-Portfolio/static/js/main.815c1c47.chunk.js",
+    "main.js.map": "/Tika-React-Portfolio/static/js/main.815c1c47.chunk.js.map",
+    "runtime-main.js": "/Tika-React-Portfolio/static/js/runtime-main.1768e688.js",
+    "runtime-main.js.map": "/Tika-React-Portfolio/static/js/runtime-main.1768e688.js.map",
+    "static/css/2.f973f1dd.chunk.css": "/Tika-React-Portfolio/static/css/2.f973f1dd.chunk.css",
+    "static/js/2.094852b2.chunk.js": "/Tika-React-Portfolio/static/js/2.094852b2.chunk.js",
+    "static/js/2.094852b2.chunk.js.map": "/Tika-React-Portfolio/static/js/2.094852b2.chunk.js.map",
+    "index.html": "/Tika-React-Portfolio/index.html",
+    "static/css/2.f973f1dd.chunk.css.map": "/Tika-React-Portfolio/static/css/2.f973f1dd.chunk.css.map",
+    "static/css/main.4909b178.chunk.css.map": "/Tika-React-Portfolio/static/css/main.4909b178.chunk.css.map",
+    "static/js/2.094852b2.chunk.js.LICENSE.txt": "/Tika-React-Portfolio/static/js/2.094852b2.chunk.js.LICENSE.txt",
+    "static/media/FitnessApp.a105e603.JPG": "/Tika-React-Portfolio/static/media/FitnessApp.a105e603.JPG",
+    "static/media/Note Taker App.a80b094f.JPG": "/Tika-React-Portfolio/static/media/Note Taker App.a80b094f.JPG",
+    "static/media/PasswordGeneratorApp.c60b1fb4.JPG": "/Tika-React-Portfolio/static/media/PasswordGeneratorApp.c60b1fb4.JPG",
+    "static/media/WeatherApp.3b60ad11.jpg": "/Tika-React-Portfolio/static/media/WeatherApp.3b60ad11.jpg",
+    "static/media/bootstrap-icons.css": "/Tika-React-Portfolio/static/media/bootstrap-icons.5747cea3.woff",
+    "static/media/meme.cefec75c.JPG": "/Tika-React-Portfolio/static/media/meme.cefec75c.JPG",
+    "static/media/quizApp.fd678fad.jpg": "/Tika-React-Portfolio/static/media/quizApp.fd678fad.jpg",
+    "static/media/tika_prev_ui.65ef1136.png": "/Tika-React-Portfolio/static/media/tika_prev_ui.65ef1136.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1768e688.js",
+    "static/css/2.f973f1dd.chunk.css",
+    "static/js/2.094852b2.chunk.js",
+    "static/css/main.4909b178.chunk.css",
+    "static/js/main.815c1c47.chunk.js"
+  ]
+}
