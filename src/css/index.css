@@ -196,23 +196,21 @@ footer p {
 
 @media (max-width: 320px) {
   #header {
-   
+    height: 80vh;
     text-align: center;
   }
 
   #header {
     margin-top: 10px;
   }
-  #header h1 {
+ h1 {
     font-size: 14px;
   }
-  #header h2 {
+ h2 {
     font-size: 10px;
     margin-bottom: 0px;
   }
-  #header .header-img img {
-    width: 70%;
-  }
+
   .heroImage {
     max-width: 30% !important;
   }
