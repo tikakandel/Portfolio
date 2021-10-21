@@ -6,7 +6,7 @@ import Resume from "./Resume"
 import About from "./About"
 import Contact from "./Contact"
 import Projects from "./Projects"
-import Footer from "./components/Footer"
+
 import Navbar from "./components/Navbar"
 
 const  App=() => {
@@ -22,7 +22,7 @@ const  App=() => {
     <Redirect to ="/" />
   
   </Switch>
-  <Footer />
+ 
   </>
   );
 }
