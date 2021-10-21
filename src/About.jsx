@@ -9,7 +9,9 @@ const  About=() => {
   <>
 
   <Common 
-    about='Passionate full stack web developer from Melbourne, Victoria. Deep understanding and technical expertise in Computer Science fundamentals, JavaScript, ReactJS, Redux, NodeJS, ExpressJS, MySQL,  MongoDB, GraphQL, JWT, Bootstrap, CSS, HTML' 
+    about='Passionate full stack web developer from Melbourne, Victoria. 
+    Deep understanding and technical expertise in Computer Science fundamentals, 
+    JavaScript, ReactJS, Redux, NodeJS, ExpressJS, MySQL,  MongoDB, GraphQL, JWT, Bootstrap, CSS, HTML' 
     imgsrc={weblogo}
     visit="/contact"
     btnname="Contact Me"
