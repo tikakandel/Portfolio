@@ -7,8 +7,9 @@
   font-family: "Muli", sans-serif;
 
 }
+
 .root {
-  min-height: 100%;
+  min-height: 90vh;
 }
 
 .container-fluid section {
