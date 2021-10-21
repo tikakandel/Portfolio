@@ -1,6 +1,7 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
         <footer className=" mx-auto col-10 footer w-100  text-center">
           © Tika Kandel 2021 | All Right Reserved |
           <h3>
-            {" "}
+          
             <a href="https://github.com/tikakandel">
               <i className="bi bi-github " height="40px"></i>
             </a>

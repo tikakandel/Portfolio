@@ -11,7 +11,7 @@ const Cardata = [
     title: "Fitness Tracker App",
     discription: " Thia app will allow user to track their fitness goals",
     tech : "HTML | CSS | JavaScript | Bootstrap | Express.js | Sequalize.js | MongoDB | Chart.js | Node.js",
-    web:"...",
+    web:"https://tika-fitness-tracker.herokuapp.com/?id=616aaacee96f5400162b519b",
   },
   {
     imgsrc: meme,
