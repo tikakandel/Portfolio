@@ -1,7 +1,7 @@
 # React Portfolio
  ## Github Deployed Page
-    To access Please go to following link
-  https://tikakandel.github.io/Portfolio/
+    
+ [tika](https://tikakandel.github.io/Portfolio/)
 
     Compatible with most of the browser and mobile device.
     Best performs with curent versions of the browser.
