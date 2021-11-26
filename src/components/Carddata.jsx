@@ -4,14 +4,24 @@ import passwordgenerator from "../image/Projects/PasswordGeneratorApp.JPG";
 import WeatherApp from "../image/Projects/WeatherApp.jpg";
 import quizApp from "../image/Projects/quizApp.jpg";
 import notetakerapp from "../image/Projects/Note Taker App.JPG";
+import TechBlog from "../image/Projects/TechBlog.JPG"
+import budget from "../image/Projects/PWA-Budget.JPG"
 
 const Cardata = [
+
   {
-    imgsrc: FitnessApp,
-    title: "Fitness Tracker App",
-    discription: " Thia app will allow user to track their fitness goals",
-    tech : "HTML | CSS | JavaScript | Bootstrap | Express.js | Sequalize.js | MongoDB | Chart.js | Node.js",
-    web:"https://tika-fitness-tracker.herokuapp.com/?id=616aaacee96f5400162b519b",
+    imgsrc: TechBlog,
+    title: "Tech Blog",
+    discription: "This app allow Tech Person to Signup for account, Login, Post their blog, They can comment and view other users blog post comment",
+    tech : "HTML | CSS | JavaScript | Node.js | NPM | MySQL| JWT | Moment.js|",
+    web:"https://tika-tech-blog.herokuapp.com/",
+  },
+  {
+    imgsrc: budget,
+    title: "PWA Budget Tracker",
+    discription: " PWA budget Tracker app can work ofline or online Mode. You can also download this app on your device",
+    tech : "HTML | CSS | JavaScript | Bootstrap | Express.js | Sequalize.js | MongoDB | Chart.js | Node.js | INDEXDB |",
+    web:"https://tika-pwa-budget-tracker.herokuapp.com/",
   },
   {
     imgsrc: meme,
@@ -48,6 +58,16 @@ const Cardata = [
     tech : "HTML | CSS | JavaScript | Node.js | NPM | MySQL| Handalebars",
     web:"https://tika-note-taking-app.herokuapp.com/",
   },
+  {
+    imgsrc: FitnessApp,
+    title: "Fitness Tracker App",
+    discription: " This app will allow user to track their fitness goals",
+    tech : "HTML | CSS | JavaScript | Bootstrap | Express.js | Sequalize.js | MongoDB | Chart.js | Node.js",
+    web:"https://tika-fitness-tracker.herokuapp.com/?id=616aaacee96f5400162b519b",
+  },
+
+ 
+ 
 ];
 
 export default Cardata;
