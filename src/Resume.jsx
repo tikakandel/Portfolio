@@ -19,6 +19,7 @@ const Resume = () => {
             <a
               className="resume"
               target="_blank"
+              rel="noreferrer" 
               href="https://drive.google.com/file/d/1h1lUKl1kCq8vr8XBUYZTzNip6TdvHBvz/view"
             >
               Resume

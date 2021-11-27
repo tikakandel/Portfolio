@@ -1,7 +1,7 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from "react-router-dom";
+ 
 
 function Footer() {
   return (

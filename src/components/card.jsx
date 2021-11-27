@@ -19,6 +19,7 @@ const Card = (props) => {
             <a
               href={props.web}
               target="_blank"
+              rel="noreferrer" 
               className="btn btn-outline-primary"
             >
               APP Link

@@ -43,7 +43,7 @@ const Contact = () => {
            <form onSubmit={formSubmit}>
             <div className="mb-3">
               <label 
-              for="exampleFormControlInput1" 
+              htmlFor="exampleFormControlInput1" 
               className="form-label">
                 Full Name
               </label>
@@ -57,7 +57,7 @@ const Contact = () => {
                 placeholder="John Do"
               />
               <label 
-              for="exampleFormControlInput1"
+               htmlFor="exampleFormControlInput1"
               className="form-label">
                 Contact Number
               </label>
@@ -72,7 +72,7 @@ const Contact = () => {
               />
 
               <label 
-              for="exampleFormControlInput1" 
+               htmlFor="exampleFormControlInput1" 
               className="form-label">
                 Email address
               </label>
@@ -89,7 +89,7 @@ const Contact = () => {
             </div>
             <div className="mb-3">
               <label 
-              for="exampleFormControlTextarea1" 
+               htmlFor="exampleFormControlTextarea1" 
               className="form-label">
                 Message
               </label>
